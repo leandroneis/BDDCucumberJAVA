@@ -5,19 +5,20 @@ import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;
 
 public class AprenderCucumber {
-
     @Dado("^que criei o arquivo corretamente$")
-    public void que_criei_o_arquivo_corretamente() {
-        // Implementation here
+    public void queCrieiOArquivoCorretamente() throws Throwable {
+        System.out.println("qualquer coisa");
+
     }
 
     @Quando("^executá-lo$")
-    public void executa_lo() {
-        // Implementation here
+    public void executáLo() throws Throwable {
+
     }
 
     @Entao("^a especificação deve finalizar com sucesso$")
-    public void a_especificacao_deve_finalizar_com_sucesso() {
-        // Implementation here
+    public void AEspecificaçãoDeveFinalizarComSucesso() throws Throwable {
+
     }
+
 }
