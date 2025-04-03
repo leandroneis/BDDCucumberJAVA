@@ -1,10 +1,11 @@
-package br.com.neis.BDDCucumber;
+package br.com.neis.BDDCucumber.steps;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
+import br.com.neis.BDDCucumber.converters.DateConverter;
 import cucumber.api.Transform;
 import org.junit.Assert;
 
@@ -12,7 +13,7 @@ import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;
 
-public class AprenderCucumber {
+public class AprenderCucumberSteps {
 
 	Date entrega = new Date();
 
